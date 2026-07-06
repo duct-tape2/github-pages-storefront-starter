@@ -3,6 +3,9 @@ contact_links:
   - name: Pay $19 full kit
     url: https://www.paypal.me/sks7178/19
     about: Pay for GitHub Pages Storefront Starter, then email private confirmation.
+  - name: $19 kit delivery help
+    url: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=buy-kit.yml
+    about: Open a public-safe delivery or support request after buying the kit.
   - name: Pay $99 setup service
     url: https://www.paypal.me/sks7178/99
     about: Pay for Repo-to-Revenue setup, then email private confirmation.

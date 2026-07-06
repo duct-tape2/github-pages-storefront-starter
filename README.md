@@ -31,6 +31,10 @@ Direct PayPal checkout:
 
 https://www.paypal.me/sks7178/19
 
+After payment, email `sks7178@gmail.com` with the subject `storefront starter`, or open a public-safe delivery help issue:
+
+https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=buy-kit.yml
+
 The $19 bundle includes:
 
 - editable one-page storefront HTML template

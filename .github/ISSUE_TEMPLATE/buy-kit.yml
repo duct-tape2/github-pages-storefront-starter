@@ -1,0 +1,74 @@
+name: Buy Storefront Starter Kit
+description: Ask for delivery help or public-safe support after buying the $19 kit.
+title: "[BUY] Storefront Starter - "
+labels: ["buyer-inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for buying GitHub Pages Storefront Starter.
+
+        PayPal: https://www.paypal.me/sks7178/19
+
+        For private delivery, email sks7178@gmail.com with the subject `storefront starter`, your delivery email, and a public-safe payment confirmation.
+
+        Use this public issue only if you are comfortable posting public-safe confirmation details. Do not post full transaction IDs, payment screenshots, passwords, API keys, private files, customer data, or private URLs.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - GitHub Pages Storefront Starter - PayPal $19
+        - Storefront Review - PayPal $49
+        - Repo-to-Revenue Setup - PayPal $99
+        - Not sure yet
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: What do you need?
+      options:
+        - Delivery after payment
+        - Pre-purchase question
+        - Download or ZIP problem
+        - Refund or support question
+    validations:
+      required: true
+
+  - type: input
+    id: payment_confirmation
+    attributes:
+      label: Public-safe payment confirmation
+      description: Use payer name or email prefix plus approximate payment time, or write "email sent". Do not post full transaction IDs.
+      placeholder: "PayPal payer name/email prefix + time / email sent + time"
+    validations:
+      required: true
+
+  - type: input
+    id: delivery_contact
+    attributes:
+      label: Delivery contact
+      description: GitHub issues are public. Enter an email only if you are comfortable posting it, or write "sent by email".
+      placeholder: "you@example.com / sent by email"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Public-safe notes
+      description: Optional support details. Keep private files and customer data out of public issues.
+      placeholder: "I paid and emailed private delivery details, or I need help opening the ZIP."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirm
+      options:
+        - label: I understand the kit is manually delivered after payment confirmation during KST business hours.
+          required: true
