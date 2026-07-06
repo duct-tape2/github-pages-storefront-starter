@@ -16,6 +16,8 @@ The GitHub template button is enabled for this repo, so you can make a private o
 - Download the free sample ZIP: https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip
 - Run the free checker from AI Money Stack:
   https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
+- Ask for public-safe storefront feedback:
+  https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=storefront-feedback.yml
 
 ## Buy The Full Kit
 
@@ -52,5 +54,9 @@ Do not use this for security, vulnerability, exploit, bypass, jailbreak, spam, f
 Open a public-safe question:
 
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=question.yml
+
+Ask for public-safe storefront feedback:
+
+https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=storefront-feedback.yml
 
 Do not post private payment details, passwords, API keys, private files, or customer data in public issues.

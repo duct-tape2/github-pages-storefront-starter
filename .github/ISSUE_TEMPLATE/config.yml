@@ -6,6 +6,9 @@ contact_links:
   - name: Done-for-you setup
     url: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
     about: $99 Repo-to-Revenue setup service.
+  - name: Run the free checker
+    url: https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
+    about: Audit a public storefront before opening a feedback request.
   - name: Private email
     url: mailto:sks7178@gmail.com?subject=storefront%20starter
     about: Use email for private delivery details or non-public context.

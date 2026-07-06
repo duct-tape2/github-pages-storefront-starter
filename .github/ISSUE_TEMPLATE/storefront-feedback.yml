@@ -1,0 +1,60 @@
+name: Storefront Feedback
+description: Ask for public-safe feedback on your storefront or checker report.
+title: "[FEEDBACK] "
+labels: ["feedback-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for public-safe storefront feedback only.
+
+        Do not post passwords, API keys, payment details, private files, customer data, analytics exports, or private transaction IDs.
+
+        If you want the done-for-you setup after feedback, use the $99 service:
+        https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+  - type: input
+    id: public-url
+    attributes:
+      label: Public storefront URL
+      description: Share a public page only. If the page is private, email instead.
+      placeholder: https://yourname.github.io/your-product/
+    validations:
+      required: true
+  - type: dropdown
+    id: current-state
+    attributes:
+      label: Current state
+      options:
+        - I used the free template
+        - I used my own page and ran the checker
+        - I am comparing the $19 kit and $99 setup
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: checker-summary
+    attributes:
+      label: Public-safe checker summary
+      description: Paste only PASS/WARN/FAIL names or a short summary. Do not paste private logs.
+      placeholder: "PASS: payment_link, support_email. WARN: social_image_fetch. FAIL: free_sample_or_preview."
+    validations:
+      required: false
+  - type: textarea
+    id: goal
+    attributes:
+      label: What should improve?
+      description: What outcome do you want from the page?
+      placeholder: I want buyers to understand the offer, trust the checkout, and know how delivery works.
+    validations:
+      required: true
+  - type: dropdown
+    id: next-step
+    attributes:
+      label: Possible next step
+      options:
+        - I want a quick public-safe pointer
+        - I may buy the $19 kit
+        - I may book the $99 setup
+        - I only want to report a sample issue
+    validations:
+      required: true
