@@ -1,0 +1,31 @@
+name: Public-Safe Question
+description: Ask about the free sample, paid kit, or setup service.
+title: "[QUESTION] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public-safe only. Do not post passwords, API keys, payment details, private files, customer data, or private transaction IDs.
+
+        Paid kit: https://duct-tape2.github.io/storefront-starter/
+
+        Done-for-you setup: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Free checklist
+        - Paid $19 kit
+        - $99 setup service
+        - Not sure yet
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Public-safe question
+      placeholder: What are you trying to launch, without private details?
+    validations:
+      required: true

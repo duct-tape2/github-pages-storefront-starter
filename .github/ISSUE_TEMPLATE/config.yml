@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Buy the full kit
+    url: https://duct-tape2.github.io/storefront-starter/
+    about: $19 GitHub Pages Storefront Starter product page.
+  - name: Done-for-you setup
+    url: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+    about: $99 Repo-to-Revenue setup service.
+  - name: Private email
+    url: mailto:sks7178@gmail.com?subject=storefront%20starter
+    about: Use email for private delivery details or non-public context.
