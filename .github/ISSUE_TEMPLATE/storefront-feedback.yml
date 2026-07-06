@@ -10,6 +10,9 @@ body:
 
         Do not post passwords, API keys, payment details, private files, customer data, analytics exports, or private transaction IDs.
 
+        Run the free browser checker first if you want a fast buyer-readiness score:
+        https://duct-tape2.github.io/storefront-checker/
+
         If you want the done-for-you setup after feedback, use the $99 service:
         https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
   - type: input

@@ -14,7 +14,9 @@ The GitHub template button is enabled for this repo, so you can make a private o
 - Copy the tiny demo from [examples/free-storefront-lite.html](examples/free-storefront-lite.html)
 - View the live demo: https://duct-tape2.github.io/github-pages-storefront-starter/
 - Download the free sample ZIP: https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip
-- Run the free checker from AI Money Stack:
+- Run the free browser checker:
+  https://duct-tape2.github.io/storefront-checker/
+- Or run the script version from AI Money Stack:
   https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
 - Ask for public-safe storefront feedback:
   https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=storefront-feedback.yml
@@ -45,6 +47,7 @@ The $19 bundle includes:
 
 If you want a smaller step before the $99 setup, book a $49 public storefront review.
 
+- Free pre-check: https://duct-tape2.github.io/storefront-checker/
 - PayPal: https://www.paypal.me/sks7178/49
 - Paid review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Sample report: [examples/storefront-review-sample.md](examples/storefront-review-sample.md)
@@ -72,6 +75,10 @@ Do not use this for security, vulnerability, exploit, bypass, jailbreak, spam, f
 Open a public-safe question:
 
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=question.yml
+
+Run the free browser checker:
+
+https://duct-tape2.github.io/storefront-checker/
 
 Ask for public-safe storefront feedback:
 

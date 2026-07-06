@@ -29,6 +29,10 @@ Do not sell or request security, vulnerability, exploit, bypass, jailbreak, cred
 
 ## Quick Test
 
+Use the no-install browser checker:
+
+https://duct-tape2.github.io/storefront-checker/
+
 Run the free checker:
 
 ```bash

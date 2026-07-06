@@ -9,9 +9,12 @@ contact_links:
   - name: Pay $49 storefront review
     url: https://www.paypal.me/sks7178/49
     about: Pay first, then open a paid review request with public-safe details only.
-  - name: Run the free checker
-    url: https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
+  - name: Run the free browser checker
+    url: https://duct-tape2.github.io/storefront-checker/
     about: Audit a public storefront before opening a feedback request.
+  - name: Get the checker script
+    url: https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
+    about: Use the command-line checker if you prefer a local script.
   - name: Private email
     url: mailto:sks7178@gmail.com?subject=storefront%20starter
     about: Use email for private delivery details or non-public context.
