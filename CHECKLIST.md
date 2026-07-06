@@ -33,6 +33,10 @@ Use the no-install browser checker:
 
 https://duct-tape2.github.io/storefront-checker/
 
+Read the free storefront launch guide:
+
+https://duct-tape2.github.io/guides/github-pages-storefront/
+
 Run the free checker:
 
 ```bash

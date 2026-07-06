@@ -16,6 +16,8 @@ https://duct-tape2.github.io/buy/
   https://github.com/new?template_name=github-pages-storefront-starter&template_owner=duct-tape2
 - Copy the tiny demo from [examples/free-storefront-lite.html](examples/free-storefront-lite.html)
 - View the live demo: https://duct-tape2.github.io/github-pages-storefront-starter/
+- Read the free launch guide:
+  https://duct-tape2.github.io/guides/github-pages-storefront/
 - Download the free sample ZIP: https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip
 - Run the free browser checker:
   https://duct-tape2.github.io/storefront-checker/
@@ -97,5 +99,9 @@ Book a paid $49 storefront review:
 https://duct-tape2.github.io/storefront-review/
 
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
+
+Free launch guide:
+
+https://duct-tape2.github.io/guides/github-pages-storefront/
 
 Do not post private payment details, passwords, API keys, private files, or customer data in public issues.
