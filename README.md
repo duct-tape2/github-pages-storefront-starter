@@ -48,6 +48,7 @@ The $19 bundle includes:
 If you want a smaller step before the $99 setup, book a $49 public storefront review.
 
 - Free pre-check: https://duct-tape2.github.io/storefront-checker/
+- Details: https://duct-tape2.github.io/storefront-review/
 - PayPal: https://www.paypal.me/sks7178/49
 - Paid review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Sample report: [examples/storefront-review-sample.md](examples/storefront-review-sample.md)
@@ -85,6 +86,8 @@ Ask for public-safe storefront feedback:
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=storefront-feedback.yml
 
 Book a paid $49 storefront review:
+
+https://duct-tape2.github.io/storefront-review/
 
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 
