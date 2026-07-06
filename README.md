@@ -9,6 +9,7 @@ This repo contains the free checklist and a tiny demo page. The paid kit adds th
 - Start with [CHECKLIST.md](CHECKLIST.md)
 - Copy the tiny demo from [examples/free-storefront-lite.html](examples/free-storefront-lite.html)
 - View the live demo: https://duct-tape2.github.io/github-pages-storefront-starter/
+- Download the free sample ZIP: https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip
 - Run the free checker from AI Money Stack:
   https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
 
