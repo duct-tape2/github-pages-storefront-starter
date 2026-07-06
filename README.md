@@ -6,6 +6,9 @@ This repo contains the free checklist and a tiny demo page. The paid kit adds th
 
 The GitHub template button is enabled for this repo, so you can make a private or public starter copy without forking history.
 
+Direct checkout for the paid kit and all current offers:
+https://duct-tape2.github.io/buy/
+
 ## Use The Free Sample
 
 - Start with [CHECKLIST.md](CHECKLIST.md)
