@@ -10,6 +10,9 @@ body:
 
         PayPal: https://www.paypal.me/sks7178/49
 
+        Sample report format:
+        https://github.com/duct-tape2/github-pages-storefront-starter/blob/main/examples/storefront-review-sample.md
+
         After payment, email sks7178@gmail.com with the subject "storefront review" and your delivery email. Do not post full transaction IDs, payment screenshots, private files, analytics exports, customer data, passwords, API keys, or private URLs in this public issue.
 
         If the page needs implementation, the next step is the $99 Repo-to-Revenue setup:
