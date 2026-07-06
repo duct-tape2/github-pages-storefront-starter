@@ -37,6 +37,15 @@ The $19 bundle includes:
 - buyer delivery checklist
 - small shell page checker
 
+## Paid Storefront Review
+
+If you want a smaller step before the $99 setup, book a $49 public storefront review.
+
+- PayPal: https://www.paypal.me/sks7178/49
+- Paid review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
+- Scope: one public storefront URL, a short written report, top buyer-readiness fixes, no private analytics or credentials in public issues.
+- Delivery: email report after payment confirmation.
+
 ## Done For You
 
 If you want me to set up the page, payment CTA, sample link, inquiry forms, README polish, and delivery checklist, use the $99 service:
@@ -58,5 +67,9 @@ https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?templat
 Ask for public-safe storefront feedback:
 
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=storefront-feedback.yml
+
+Book a paid $49 storefront review:
+
+https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 
 Do not post private payment details, passwords, API keys, private files, or customer data in public issues.

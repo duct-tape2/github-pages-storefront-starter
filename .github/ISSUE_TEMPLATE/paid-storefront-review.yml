@@ -1,0 +1,61 @@
+name: Paid Storefront Review
+description: Start a public-safe $49 storefront review request.
+title: "[PAID REVIEW] "
+labels: ["paid-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        $49 Storefront Review: I review one public storefront page and send a short written report with the top fixes for buyer readiness.
+
+        PayPal: https://www.paypal.me/sks7178/49
+
+        After payment, email sks7178@gmail.com with the subject "storefront review" and your delivery email. Do not post full transaction IDs, payment screenshots, private files, analytics exports, customer data, passwords, API keys, or private URLs in this public issue.
+
+        If the page needs implementation, the next step is the $99 Repo-to-Revenue setup:
+        https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+  - type: input
+    id: public-url
+    attributes:
+      label: Public storefront URL
+      description: Share one public page only. Private pages should be handled by email before payment.
+      placeholder: https://yourname.github.io/your-product/
+    validations:
+      required: true
+  - type: dropdown
+    id: payment-status
+    attributes:
+      label: Payment status
+      options:
+        - Asking before payment
+        - Paid $49 and emailed private confirmation
+        - Need a different checkout link
+    validations:
+      required: true
+  - type: textarea
+    id: review-focus
+    attributes:
+      label: What should I focus on?
+      description: Keep this public-safe. Do not include private metrics or buyer data.
+      placeholder: Checkout trust, offer clarity, refund/support language, free sample, page copy, or GitHub Pages setup.
+    validations:
+      required: true
+  - type: textarea
+    id: checker-summary
+    attributes:
+      label: Optional checker summary
+      description: Paste only PASS/WARN/FAIL names or a short summary from storefront_checker.py.
+      placeholder: "WARN: social_image_fetch. FAIL: buyer_contact_path."
+    validations:
+      required: false
+  - type: dropdown
+    id: next-step-interest
+    attributes:
+      label: Possible next step
+      options:
+        - Review only
+        - I may buy the $19 kit
+        - I may book the $99 setup after the review
+        - Not sure yet
+    validations:
+      required: true
