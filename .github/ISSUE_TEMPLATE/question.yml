@@ -9,8 +9,10 @@ body:
         Public-safe only. Do not post passwords, API keys, payment details, private files, customer data, or private transaction IDs.
 
         Paid kit: https://duct-tape2.github.io/storefront-starter/
+        Direct PayPal for the $19 kit: https://www.paypal.me/sks7178/19
 
         Done-for-you setup: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+        Direct PayPal for the $99 setup: https://www.paypal.me/sks7178/99
   - type: dropdown
     id: topic
     attributes:

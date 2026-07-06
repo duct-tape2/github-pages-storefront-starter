@@ -25,6 +25,10 @@ Product page:
 
 https://duct-tape2.github.io/storefront-starter/
 
+Direct PayPal checkout:
+
+https://www.paypal.me/sks7178/19
+
 The $19 bundle includes:
 
 - editable one-page storefront HTML template
@@ -52,6 +56,10 @@ If you want a smaller step before the $99 setup, book a $49 public storefront re
 If you want me to set up the page, payment CTA, sample link, inquiry forms, README polish, and delivery checklist, use the $99 service:
 
 https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+
+Direct PayPal checkout:
+
+https://www.paypal.me/sks7178/99
 
 ## Safe Scope
 

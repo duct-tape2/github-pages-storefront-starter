@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Buy the full kit
-    url: https://duct-tape2.github.io/storefront-starter/
-    about: $19 GitHub Pages Storefront Starter product page.
-  - name: Done-for-you setup
-    url: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
-    about: $99 Repo-to-Revenue setup service.
+  - name: Pay $19 full kit
+    url: https://www.paypal.me/sks7178/19
+    about: Pay for GitHub Pages Storefront Starter, then email private confirmation.
+  - name: Pay $99 setup service
+    url: https://www.paypal.me/sks7178/99
+    about: Pay for Repo-to-Revenue setup, then email private confirmation.
   - name: Pay $49 storefront review
     url: https://www.paypal.me/sks7178/49
     about: Pay first, then open a paid review request with public-safe details only.
