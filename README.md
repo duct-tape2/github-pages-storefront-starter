@@ -25,6 +25,8 @@ https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
 - View the live demo: https://duct-tape2.github.io/github-pages-storefront-starter/
 - Read the free launch guide:
   https://duct-tape2.github.io/guides/github-pages-storefront/
+- Check a PayPal/static-site checkout path:
+  https://duct-tape2.github.io/guides/paypal-static-storefront/
 - Download the free sample ZIP: https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip
 - Run the free browser checker:
   https://duct-tape2.github.io/storefront-checker/
@@ -114,5 +116,9 @@ https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?templat
 Free launch guide:
 
 https://duct-tape2.github.io/guides/github-pages-storefront/
+
+PayPal static storefront checklist:
+
+https://duct-tape2.github.io/guides/paypal-static-storefront/
 
 Do not post private payment details, passwords, API keys, private files, or customer data in public issues.

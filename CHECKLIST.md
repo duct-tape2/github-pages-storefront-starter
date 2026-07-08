@@ -37,6 +37,10 @@ Read the free storefront launch guide:
 
 https://duct-tape2.github.io/guides/github-pages-storefront/
 
+Check a PayPal/static-site checkout path:
+
+https://duct-tape2.github.io/guides/paypal-static-storefront/
+
 Run the free checker:
 
 ```bash
