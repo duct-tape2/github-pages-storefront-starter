@@ -9,6 +9,10 @@ The GitHub template button is enabled for this repo, so you can make a private o
 Direct checkout for the paid kit and all current offers:
 https://duct-tape2.github.io/buy/
 
+Bundle option:
+Repo-to-Revenue Launch Bundle ($39) includes this kit plus AI Money Stack.
+https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
+
 ## Use The Free Sample
 
 - Start with [CHECKLIST.md](CHECKLIST.md)
@@ -35,6 +39,10 @@ https://duct-tape2.github.io/storefront-starter/
 Direct PayPal checkout:
 
 https://www.paypal.me/sks7178/19
+
+If you also want AI Money Stack, use the $39 launch bundle instead:
+
+https://www.paypal.me/sks7178/39
 
 After payment, email `sks7178@gmail.com` with the subject `storefront starter`, or open a public-safe delivery help issue:
 
