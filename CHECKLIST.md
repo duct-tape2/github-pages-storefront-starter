@@ -50,3 +50,7 @@ https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
 Paid starter kit:
 
 https://duct-tape2.github.io/storefront-starter/
+
+If this free checklist helped, tip $5:
+
+https://www.paypal.me/sks7178/5
