@@ -41,6 +41,10 @@ Check a PayPal/static-site checkout path:
 
 https://duct-tape2.github.io/guides/paypal-static-storefront/
 
+Generate a PayPal button, delivery email note, and HTML checkout block:
+
+https://duct-tape2.github.io/tools/paypal-button-builder/
+
 Run the free checker:
 
 ```bash

@@ -27,6 +27,8 @@ https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
   https://duct-tape2.github.io/guides/github-pages-storefront/
 - Check a PayPal/static-site checkout path:
   https://duct-tape2.github.io/guides/paypal-static-storefront/
+- Generate a PayPal button, delivery email note, and HTML checkout block:
+  https://duct-tape2.github.io/tools/paypal-button-builder/
 - Download the free sample ZIP: https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip
 - Run the free browser checker:
   https://duct-tape2.github.io/storefront-checker/
@@ -120,5 +122,9 @@ https://duct-tape2.github.io/guides/github-pages-storefront/
 PayPal static storefront checklist:
 
 https://duct-tape2.github.io/guides/paypal-static-storefront/
+
+PayPal button builder:
+
+https://duct-tape2.github.io/tools/paypal-button-builder/
 
 Do not post private payment details, passwords, API keys, private files, or customer data in public issues.
