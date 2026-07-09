@@ -9,6 +9,9 @@ The GitHub template button is enabled for this repo, so you can make a private o
 Direct checkout for the paid kit and all current offers:
 https://duct-tape2.github.io/buy/
 
+Not sure what to buy? Use the offer chooser:
+https://duct-tape2.github.io/tools/offer-chooser/
+
 If the free sample, checker, or template helped and you do not need the full kit yet, a $5 thank-you tip is here:
 https://www.paypal.me/sks7178/5
 
