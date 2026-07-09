@@ -77,7 +77,7 @@ If you want a smaller step before the $99 setup, book a $49 public storefront re
 - Details: https://duct-tape2.github.io/storefront-review/
 - PayPal: https://www.paypal.me/sks7178/49
 - Paid review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
-- Sample report: [examples/storefront-review-sample.md](examples/storefront-review-sample.md)
+- Sample report: https://duct-tape2.github.io/examples/storefront-review-sample/
 - Scope: one public storefront URL, a short written report, top buyer-readiness fixes, no private analytics or credentials in public issues.
 - Delivery: email report after payment confirmation.
 
