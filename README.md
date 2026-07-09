@@ -27,6 +27,8 @@ https://duct-tape2.github.io/repo-to-revenue-launch-bundle/
   https://duct-tape2.github.io/guides/github-pages-storefront/
 - Check a PayPal/static-site checkout path:
   https://duct-tape2.github.io/guides/paypal-static-storefront/
+- Generate a full static product page, Product schema, checkout URL, and delivery mailto:
+  https://duct-tape2.github.io/tools/static-storefront-builder/
 - Generate a PayPal button, delivery email note, and HTML checkout block:
   https://duct-tape2.github.io/tools/paypal-button-builder/
 - Download the free sample ZIP: https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip
