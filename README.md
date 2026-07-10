@@ -90,9 +90,9 @@ If you want me to set up the page, payment CTA, sample link, inquiry forms, READ
 
 https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
 
-Direct PayPal checkout:
+Direct Payhip checkout:
 
-https://www.paypal.me/sks7178/99
+https://payhip.com/b/ZOl1I
 
 ## Safe Scope
 
