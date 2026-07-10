@@ -13,7 +13,7 @@ Not sure what to buy? Use the offer chooser:
 https://duct-tape2.github.io/tools/offer-chooser/
 
 If the free sample, checker, or template helped and you do not need the full kit yet, a $5 thank-you tip is here:
-https://www.paypal.me/sks7178/5
+https://payhip.com/b/0LKEF
 
 Bundle option:
 Repo-to-Revenue Launch Bundle ($39) includes this kit plus AI Money Stack.
@@ -78,7 +78,7 @@ If you want a smaller step before the $99 setup, book a $49 public storefront re
 
 - Free pre-check: https://duct-tape2.github.io/storefront-checker/
 - Details: https://duct-tape2.github.io/storefront-review/
-- PayPal: https://www.paypal.me/sks7178/49
+- Request first: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Paid review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Sample report: https://duct-tape2.github.io/examples/storefront-review-sample/
 - Scope: one public storefront URL, a short written report, top buyer-readiness fixes, no private analytics or credentials in public issues.

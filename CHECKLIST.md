@@ -66,9 +66,9 @@ https://duct-tape2.github.io/storefront-starter/
 Need a second set of eyes before launch?
 
 - Storefront Review sample report: https://duct-tape2.github.io/examples/storefront-review-sample/
-- PayPal $49 review checkout: https://www.paypal.me/sks7178/49
+- Request the $49 review first: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Public-safe review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 
 If this free checklist helped, tip $5:
 
-https://www.paypal.me/sks7178/5
+https://payhip.com/b/0LKEF

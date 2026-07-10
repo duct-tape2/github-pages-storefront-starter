@@ -9,12 +9,12 @@ contact_links:
   - name: $19 kit delivery help
     url: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=buy-kit.yml
     about: Open a public-safe delivery or support request after buying the kit.
-  - name: Pay $99 setup service
-    url: https://www.paypal.me/sks7178/99
-    about: Pay for Repo-to-Revenue setup, then email private confirmation.
-  - name: Pay $49 storefront review
-    url: https://www.paypal.me/sks7178/49
-    about: Pay first, then open a paid review request with public-safe details only.
+  - name: Book $99 setup service
+    url: https://payhip.com/b/ZOl1I
+    about: Book Repo-to-Revenue setup, then send the public repo or product URL.
+  - name: Request $49 storefront review
+    url: https://duct-tape2.github.io/storefront-review/
+    about: Review the scope and open a public-safe request before payment.
   - name: Run the free browser checker
     url: https://duct-tape2.github.io/storefront-checker/
     about: Audit a public storefront before opening a feedback request.

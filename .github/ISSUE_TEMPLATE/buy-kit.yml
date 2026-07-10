@@ -10,9 +10,9 @@ body:
 
         Payhip instant checkout: https://payhip.com/b/KN6XS
 
-        For private delivery, email sks7178@gmail.com with the subject `storefront starter`, your delivery email, and a public-safe payment confirmation.
+        Payhip delivers the ZIP automatically. Email sks7178@gmail.com only if checkout or delivery fails.
 
-        Use this public issue only if you are comfortable posting public-safe confirmation details. Do not post full transaction IDs, payment screenshots, passwords, API keys, private files, customer data, or private URLs.
+        Use this public issue only for public-safe support details. Do not post payment records, screenshots, passwords, API keys, private files, customer data, or private URLs.
 
   - type: dropdown
     id: product
@@ -20,8 +20,8 @@ body:
       label: Product
       options:
         - GitHub Pages Storefront Starter - Payhip $19
-        - Storefront Review - PayPal $49
-        - Repo-to-Revenue Setup - PayPal $99
+        - Storefront Review - request first ($49)
+        - Repo-to-Revenue Setup - Payhip $99
         - Not sure yet
     validations:
       required: true
@@ -31,7 +31,8 @@ body:
     attributes:
       label: What do you need?
       options:
-        - Delivery after payment
+        - Payhip download or delivery problem
+        - Review request before payment
         - Pre-purchase question
         - Download or ZIP problem
         - Refund or support question
@@ -41,18 +42,18 @@ body:
   - type: input
     id: payment_confirmation
     attributes:
-      label: Public-safe payment confirmation
-      description: Use payer name or email prefix plus approximate payment time, or write "email sent". Do not post full transaction IDs.
-      placeholder: "PayPal payer name/email prefix + time / email sent + time"
+      label: Public-safe problem summary
+      description: Describe the checkout or delivery problem without posting receipt numbers, screenshots, or payment details.
+      placeholder: "Checkout failed / delivery email missing / ZIP will not open"
     validations:
       required: true
 
   - type: input
     id: delivery_contact
     attributes:
-      label: Delivery contact
-      description: GitHub issues are public. Enter an email only if you are comfortable posting it, or write "sent by email".
-      placeholder: "you@example.com / sent by email"
+      label: Private support email sent?
+      description: GitHub issues are public. Write "sent" if you emailed support details; do not post your email address here.
+      placeholder: "sent / not needed"
     validations:
       required: true
 
@@ -61,7 +62,7 @@ body:
     attributes:
       label: Public-safe notes
       description: Optional support details. Keep private files and customer data out of public issues.
-      placeholder: "I paid and emailed private delivery details, or I need help opening the ZIP."
+      placeholder: "Payhip delivery failed, or I need help opening the ZIP."
     validations:
       required: false
 
@@ -70,5 +71,5 @@ body:
     attributes:
       label: Confirm
       options:
-        - label: I understand the kit is manually delivered after payment confirmation during KST business hours.
+        - label: I understand Payhip delivers the ZIP automatically after checkout.
           required: true

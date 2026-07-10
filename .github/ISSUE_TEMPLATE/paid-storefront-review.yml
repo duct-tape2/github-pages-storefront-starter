@@ -8,14 +8,14 @@ body:
       value: |
         $49 Storefront Review: I review one public storefront page and send a short written report with the top fixes for buyer readiness.
 
-        Direct checkout: https://duct-tape2.github.io/buy/
-        PayPal: https://www.paypal.me/sks7178/49
+        Review details: https://duct-tape2.github.io/storefront-review/
+        Payment follows scope confirmation.
         Free launch guide: https://duct-tape2.github.io/guides/github-pages-storefront/
 
         Sample report format:
         https://duct-tape2.github.io/examples/storefront-review-sample/
 
-        After payment, email sks7178@gmail.com with the subject "storefront review" and your delivery email. Do not post full transaction IDs, payment screenshots, private files, analytics exports, customer data, passwords, API keys, or private URLs in this public issue.
+        Submit this public-safe request before payment. Scope is confirmed first; private files, analytics exports, customer data, passwords, API keys, payment records, and private URLs must not be posted here.
 
         If the page needs implementation, the next step is the $99 Repo-to-Revenue setup:
         https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
@@ -23,7 +23,7 @@ body:
     id: public-url
     attributes:
       label: Public storefront URL
-      description: Share one public page only. Private pages should be handled by email before payment.
+      description: Share one public page only. Private pages should be discussed by email before scope confirmation.
       placeholder: https://yourname.github.io/your-product/
     validations:
       required: true
