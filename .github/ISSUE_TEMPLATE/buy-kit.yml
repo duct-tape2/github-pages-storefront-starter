@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for buying GitHub Pages Storefront Starter.
 
-        PayPal: https://www.paypal.me/sks7178/19
+        Payhip instant checkout: https://payhip.com/b/KN6XS
 
         For private delivery, email sks7178@gmail.com with the subject `storefront starter`, your delivery email, and a public-safe payment confirmation.
 
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Product
       options:
-        - GitHub Pages Storefront Starter - PayPal $19
+        - GitHub Pages Storefront Starter - Payhip $19
         - Storefront Review - PayPal $49
         - Repo-to-Revenue Setup - PayPal $99
         - Not sure yet

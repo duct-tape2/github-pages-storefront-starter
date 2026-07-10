@@ -48,15 +48,15 @@ Product page:
 
 https://duct-tape2.github.io/storefront-starter/
 
-Direct PayPal checkout:
+Payhip checkout:
 
-https://www.paypal.me/sks7178/19
+https://payhip.com/b/KN6XS
 
 If you also want AI Money Stack, use the $39 launch bundle instead:
 
-https://www.paypal.me/sks7178/39
+https://payhip.com/b/qHsNi
 
-After payment, email `sks7178@gmail.com` with the subject `storefront starter`, or open a public-safe delivery help issue:
+Payhip delivers the ZIP automatically. If delivery fails, email `sks7178@gmail.com` with the subject `storefront starter`, or open a public-safe delivery help issue:
 
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=buy-kit.yml
 
