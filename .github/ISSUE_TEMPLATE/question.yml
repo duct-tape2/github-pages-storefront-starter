@@ -9,12 +9,12 @@ body:
         Public-safe only. Do not post passwords, API keys, payment details, private files, customer data, or private transaction IDs.
 
         Paid kit: https://duct-tape2.github.io/storefront-starter/
-        Payhip checkout for the $19 kit: https://payhip.com/b/KN6XS
+        Checkout confirmation for the $19 kit: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
         Free browser checker: https://duct-tape2.github.io/storefront-checker/
 
         Done-for-you setup: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
-        Payhip booking for the $99 setup: https://payhip.com/b/ZOl1I
+        Checkout confirmation for the $99 setup: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
   - type: dropdown
     id: topic
     attributes:
