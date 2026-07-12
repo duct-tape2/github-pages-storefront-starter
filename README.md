@@ -6,14 +6,16 @@ This repo contains the free checklist and a tiny demo page. The paid kit adds th
 
 The GitHub template button is enabled for this repo, so you can make a private or public starter copy without forking history.
 
-Direct checkout for the paid kit and all current offers:
+Offer and checkout status for the paid kit and all current offers:
 https://duct-tape2.github.io/buy/
 
 Not sure what to buy? Use the offer chooser:
 https://duct-tape2.github.io/tools/offer-chooser/
 
-If the free sample, checker, or template helped and you do not need the full kit yet, a $5 thank-you tip is here:
-https://payhip.com/b/0LKEF
+If the free sample, checker, or template helped and you want to leave a $5 thank-you tip, confirm a working checkout first:
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+
+Payment acceptance is temporarily paused while payout settings are restored. Do not pay through an old link; use the inquiry above to confirm a working checkout first.
 
 Bundle option:
 Repo-to-Revenue Launch Bundle ($39) includes this kit plus AI Money Stack.
@@ -48,15 +50,15 @@ Product page:
 
 https://duct-tape2.github.io/storefront-starter/
 
-Payhip checkout:
+Checkout confirmation:
 
-https://payhip.com/b/KN6XS
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
 If you also want AI Money Stack, use the $39 launch bundle instead:
 
-https://payhip.com/b/qHsNi
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
-Payhip delivers the ZIP automatically. If delivery fails, email `sks7178@gmail.com` with the subject `storefront starter`, or open a public-safe delivery help issue:
+After a working checkout and payment are confirmed, the active storefront delivers the ZIP automatically. If delivery fails, email `sks7178@gmail.com` with the subject `storefront starter`, or open a public-safe delivery help issue:
 
 https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=buy-kit.yml
 
@@ -90,9 +92,9 @@ If you want me to set up the page, payment CTA, sample link, inquiry forms, READ
 
 https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
 
-Direct Payhip checkout:
+Checkout confirmation:
 
-https://payhip.com/b/ZOl1I
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
 ## Safe Scope
 

@@ -69,6 +69,6 @@ Need a second set of eyes before launch?
 - Request the $49 review first: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 - Public-safe review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
 
-If this free checklist helped, tip $5:
+If this free checklist helped, request a confirmed $5 tip checkout:
 
-https://payhip.com/b/0LKEF
+https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml

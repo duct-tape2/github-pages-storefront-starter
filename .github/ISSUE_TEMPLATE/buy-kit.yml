@@ -6,11 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for buying GitHub Pages Storefront Starter.
+        Thanks for your interest in GitHub Pages Storefront Starter.
 
-        Payhip instant checkout: https://payhip.com/b/KN6XS
+        Checkout confirmation: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
 
-        Payhip delivers the ZIP automatically. Email sks7178@gmail.com only if checkout or delivery fails.
+        Payment acceptance is temporarily paused. Confirm a working checkout before paying. Delivery begins only after confirmed payment; email sks7178@gmail.com for private payment or delivery details.
 
         Use this public issue only for public-safe support details. Do not post payment records, screenshots, passwords, API keys, private files, customer data, or private URLs.
 
@@ -19,9 +19,9 @@ body:
     attributes:
       label: Product
       options:
-        - GitHub Pages Storefront Starter - Payhip $19
+        - GitHub Pages Storefront Starter - $19
         - Storefront Review - request first ($49)
-        - Repo-to-Revenue Setup - Payhip $99
+        - Repo-to-Revenue Setup - $99
         - Not sure yet
     validations:
       required: true
@@ -31,7 +31,7 @@ body:
     attributes:
       label: What do you need?
       options:
-        - Payhip download or delivery problem
+        - Storefront download or delivery problem
         - Review request before payment
         - Pre-purchase question
         - Download or ZIP problem
@@ -62,7 +62,7 @@ body:
     attributes:
       label: Public-safe notes
       description: Optional support details. Keep private files and customer data out of public issues.
-      placeholder: "Payhip delivery failed, or I need help opening the ZIP."
+      placeholder: "Storefront delivery failed, or I need help opening the ZIP."
     validations:
       required: false
 
@@ -71,5 +71,5 @@ body:
     attributes:
       label: Confirm
       options:
-        - label: I understand Payhip delivers the ZIP automatically after checkout.
+        - label: I understand I must confirm a working checkout before paying and that delivery begins only after confirmed payment.
           required: true
