@@ -1,5 +1,5 @@
 name: Public-Safe Question
-description: Ask about the free sample, paid kit, or setup service.
+description: Ask about the free sample or the $99 repo page service.
 title: "[QUESTION] "
 labels: ["question"]
 body:
@@ -8,21 +8,18 @@ body:
       value: |
         Public-safe only. Do not post passwords, API keys, payment details, private files, customer data, or private transaction IDs.
 
-        Paid kit: https://duct-tape2.github.io/storefront-starter/
-        Checkout confirmation for the $19 kit: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
-
         Free browser checker: https://duct-tape2.github.io/storefront-checker/
 
-        Done-for-you setup: https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
-        Checkout confirmation for the $99 setup: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+        $99 repo page service: https://duct-tape2.github.io/repo-launch/
+        Paid inquiry: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
   - type: dropdown
     id: topic
     attributes:
       label: Topic
       options:
         - Free checklist
-        - Paid $19 kit
-        - $99 setup service
+        - Free template or checker
+        - $99 repo page service
         - Not sure yet
     validations:
       required: true

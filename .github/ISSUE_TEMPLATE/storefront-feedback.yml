@@ -13,8 +13,8 @@ body:
         Run the free browser checker first if you want a fast buyer-readiness score:
         https://duct-tape2.github.io/storefront-checker/
 
-        If you want the done-for-you setup after feedback, use the $99 service:
-        https://duct-tape2.github.io/ai-money-stack/repo-to-revenue/
+        If you want the done-for-you service after feedback:
+        https://duct-tape2.github.io/repo-launch/
   - type: input
     id: public-url
     attributes:
@@ -30,7 +30,7 @@ body:
       options:
         - I used the free template
         - I used my own page and ran the checker
-        - I am comparing the $19 kit and $99 setup
+        - I am considering the $99 repo page service
         - Not sure yet
     validations:
       required: true
@@ -56,8 +56,7 @@ body:
       label: Possible next step
       options:
         - I want a quick public-safe pointer
-        - I may buy the $19 kit
-        - I may book the $99 setup
+        - I may use the $99 repo page service
         - I only want to report a sample issue
     validations:
       required: true

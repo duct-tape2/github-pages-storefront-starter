@@ -1,26 +1,14 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Offer and checkout status
-    url: https://duct-tape2.github.io/buy/
-    about: Review current offers and confirm a working checkout before paying.
-  - name: Confirm $19 kit checkout
+  - name: Start the $99 repo page service
     url: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
-    about: Request a working checkout before paying for GitHub Pages Storefront Starter.
-  - name: $19 kit delivery help
-    url: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=buy-kit.yml
-    about: Open a public-safe delivery or support request after buying the kit.
-  - name: Confirm $99 setup checkout
-    url: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
-    about: Confirm scope and a working checkout before paying for Repo-to-Revenue setup.
-  - name: Request $49 storefront review
-    url: https://duct-tape2.github.io/storefront-review/
-    about: Review the scope and open a public-safe request before payment.
+    about: Share one public repo URL and the buyer outcome you want.
+  - name: Review service scope
+    url: https://duct-tape2.github.io/repo-launch/
+    about: Review the fixed scope, evidence, and inquiry process before contacting us.
   - name: Run the free browser checker
     url: https://duct-tape2.github.io/storefront-checker/
     about: Audit a public storefront before opening a feedback request.
-  - name: Get the checker script
-    url: https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
-    about: Use the command-line checker if you prefer a local script.
   - name: Private email
-    url: mailto:sks7178@gmail.com?subject=storefront%20starter
-    about: Use email for private delivery details or non-public context.
+    url: mailto:sks7178@gmail.com?subject=Buyer-ready%20repo%20page%20inquiry
+    about: Use the listed email when a public issue is not appropriate.
