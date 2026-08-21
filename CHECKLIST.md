@@ -37,17 +37,9 @@ Read the free storefront launch guide:
 
 https://duct-tape2.github.io/guides/github-pages-storefront/
 
-Check a PayPal/static-site checkout path:
-
-https://duct-tape2.github.io/guides/paypal-static-storefront/
-
 Static storefront page builder:
 
 https://duct-tape2.github.io/tools/static-storefront-builder/
-
-Generate a PayPal button, delivery email note, and HTML checkout block:
-
-https://duct-tape2.github.io/tools/paypal-button-builder/
 
 Run the free checker:
 
@@ -59,16 +51,13 @@ Free checker:
 
 https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py
 
-Paid starter kit:
+Compare a shipped example:
 
-https://duct-tape2.github.io/storefront-starter/
+https://duct-tape2.github.io/examples/storefront-starter-case-study/
 
-Need a second set of eyes before launch?
+Need the page built for one existing GitHub repo?
 
-- Storefront Review sample report: https://duct-tape2.github.io/examples/storefront-review-sample/
-- Request the $49 review first: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
-- Public-safe review request: https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=paid-storefront-review.yml
-
-If this free checklist helped, request a confirmed $5 tip checkout:
-
-https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+- `$99` service scope: https://duct-tape2.github.io/repo-launch/
+- Public work: https://duct-tape2.github.io/work/
+- Paid inquiry: https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml
+- Email: `sks7178@gmail.com` with subject `Buyer-ready repo page inquiry`
