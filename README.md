@@ -24,9 +24,9 @@ For `$99`, turn one existing GitHub repo into a buyer-ready product page with cl
 - [View shipped work](https://duct-tape2.github.io/work/).
 - [Read the case study](https://duct-tape2.github.io/examples/storefront-starter-case-study/).
 - [Open the approved paid inquiry](https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml).
-- Email: `sks7178@gmail.com` with subject `Buyer-ready repo page inquiry`.
+- [Email the listed service address](mailto:sks7178@gmail.com?subject=Buyer-ready%20repo%20page%20inquiry).
 
-Send only a public repo URL and the page outcome you want. Payment instructions are confirmed privately after scope is accepted. No revenue guarantees.
+Available worldwide in English and priced in USD. Send only a public repo URL and the page outcome you want. Payment instructions are confirmed privately after scope is accepted. No revenue guarantees.
 
 ## Safe Scope
 
