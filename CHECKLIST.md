@@ -29,6 +29,13 @@ Do not sell or request security, vulnerability, exploit, bypass, jailbreak, cred
 
 ## Quick Test
 
+Before you push, run the offline checks in this repo (Python 3, no installs):
+
+```bash
+python3 scripts/build.py --check   # docs/ matches storefront.json
+python3 scripts/check_site.py      # links, meta tags, JSON-LD, sitemap
+```
+
 Use the no-install browser checker:
 
 https://duct-tape2.github.io/storefront-checker/
