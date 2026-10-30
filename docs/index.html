@@ -6,6 +6,8 @@
   <title>GitHub Pages Storefront Sample | $99 Repo Page Service</title>
   <meta name="description" content="Free GitHub Pages storefront sample plus a $99 service that turns one existing repo into a buyer-ready product page.">
   <link rel="canonical" href="https://duct-tape2.github.io/github-pages-storefront-starter/">
+  <link rel="icon" href="data:,">
+  <meta name="theme-color" content="#15131d">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="GitHub Pages Storefront Starter">
   <meta property="og:title" content="GitHub Pages Storefront Sample | $99 Repo Page Service">
@@ -14,36 +16,138 @@
   <meta property="og:image" content="https://duct-tape2.github.io/github-pages-storefront-starter/assets/storefront-starter-hero.png">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="900">
+  <meta property="og:image:alt" content="Storefront Starter Kit graphic: page template, issue forms, launch checklist, and delivery copy.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="GitHub Pages Storefront Sample | $99 Repo Page Service">
   <meta name="twitter:description" content="Use the free sample or get one existing GitHub repo turned into a buyer-ready product page for $99.">
   <meta name="twitter:image" content="https://duct-tape2.github.io/github-pages-storefront-starter/assets/storefront-starter-hero.png">
+  <meta name="twitter:image:alt" content="Storefront Starter Kit graphic: page template, issue forms, launch checklist, and delivery copy.">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "GitHub Pages Storefront Starter",
+      "description": "A free checklist and tiny live demo for turning a small repo, checklist, deck, PDF, or digital download into a buyer-ready storefront.",
+      "url": "https://duct-tape2.github.io/github-pages-storefront-starter/",
+      "brand": {
+        "@type": "Brand",
+        "name": "duct-tape2"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Free sample",
+          "price": "0",
+          "priceCurrency": "USD",
+          "url": "https://github.com/new?template_name=github-pages-storefront-starter&template_owner=duct-tape2",
+          "description": "Free sample repo for turning a small repo, checklist, deck, PDF, or digital download into a clearer GitHub Pages product page."
+        },
+        {
+          "@type": "Offer",
+          "name": "Buyer-ready repo page",
+          "price": "99",
+          "priceCurrency": "USD",
+          "url": "https://duct-tape2.github.io/repo-launch/",
+          "description": "For $99, turn one existing GitHub repo into a buyer-ready product page with clear positioning, proof, scope, and inquiry paths.",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Buyer-ready repo page"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What do I send for the $99 service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send only a public repo URL and the page outcome you want."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the service available, and in what currency?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Available worldwide in English and priced in USD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are results guaranteed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No revenue guarantees."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I keep out of public issues?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Do not post payment details, passwords, API keys, private files, customer data, analytics exports, or private URLs in public issues."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
   <style>
-    * { box-sizing: border-box; }
+    *, *::before, *::after { box-sizing: border-box; }
+    :root {
+      --ink: #171717;
+      --muted: #4d4d4d;
+      --paper: #f7f5ef;
+      --line: #ded8cb;
+      --accent: #165e6f;
+      --night: #15131d;
+    }
     body {
       margin: 0;
-      color: #171717;
-      background: #f7f5ef;
+      color: var(--ink);
+      background: var(--paper);
       font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 17px;
       line-height: 1.55;
     }
-    a { color: #165e6f; }
+    a { color: var(--accent); text-underline-offset: 2px; }
+    a:focus-visible, .btn:focus-visible {
+      outline: 3px solid #f2b705;
+      outline-offset: 3px;
+    }
+    .skip {
+      position: absolute;
+      left: 12px;
+      top: -60px;
+      z-index: 10;
+      padding: 10px 14px;
+      border-radius: 6px;
+      color: #fff;
+      background: var(--accent);
+      font-weight: 700;
+    }
+    .skip:focus { top: 12px; }
     .hero {
       position: relative;
-      min-height: 74vh;
       display: flex;
       align-items: flex-end;
       overflow: hidden;
       color: #fff;
-      background: #15131d;
-      padding: 42px 22px;
+      background: var(--night);
+      padding: 48px 16px 36px;
     }
     .hero::before {
       content: "";
       position: absolute;
       inset: 0;
-      background: url("assets/storefront-starter-hero.png") 72% center / cover no-repeat;
-      opacity: .13;
+      background: url("assets/storefront-starter-hero.png") 70% center / cover no-repeat;
+      opacity: .08;
     }
     .hero::after {
       content: "";
@@ -55,99 +159,102 @@
       width: min(1040px, 100%);
       margin: 0 auto;
     }
-    .hero .inner {
-      position: relative;
-      z-index: 1;
-    }
+    .hero .inner { position: relative; z-index: 1; }
     .eyebrow {
       margin: 0 0 12px;
       color: #bae6fd;
       font-size: 13px;
-      font-weight: 850;
+      font-weight: 800;
+      letter-spacing: .04em;
       text-transform: uppercase;
     }
     h1 {
       max-width: 840px;
       margin: 0;
-      font-size: clamp(42px, 7vw, 76px);
-      line-height: .96;
-      letter-spacing: 0;
+      font-size: clamp(36px, 9vw, 76px);
+      line-height: 1;
+      overflow-wrap: break-word;
     }
     .lead {
       max-width: 740px;
-      margin: 22px 0 0;
+      margin: 20px 0 0;
       color: #eef2f7;
-      font-size: 20px;
+      font-size: 19px;
     }
     .actions {
       display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 28px;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 22px;
     }
     .btn {
-      display: inline-flex;
+      display: flex;
       align-items: center;
       justify-content: center;
       min-height: 48px;
-      padding: 0 18px;
-      border: 1px solid #fff;
+      padding: 10px 18px;
+      border: 1px solid var(--accent);
       border-radius: 6px;
-      color: #111;
-      background: #fff;
-      font-weight: 850;
-      text-decoration: none;
-      white-space: nowrap;
-    }
-    .btn.secondary {
       color: #fff;
-      background: rgba(255,255,255,.08);
+      background: var(--accent);
+      font-weight: 800;
+      text-align: center;
+      text-decoration: none;
     }
-    main { padding: 36px 22px 58px; }
+    .btn.secondary { color: var(--accent); background: transparent; }
+    .hero .btn { border-color: #fff; color: #111; background: #fff; }
+    .hero .btn.secondary { color: #fff; background: rgba(255,255,255,.08); }
+    main { padding: 24px 16px 48px; }
     section {
       padding: 28px 0;
-      border-bottom: 1px solid #ded8cb;
+      border-bottom: 1px solid var(--line);
+      scroll-margin-top: 16px;
     }
-    h2 {
-      margin: 0 0 14px;
-      font-size: 28px;
-      line-height: 1.15;
-      letter-spacing: 0;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 16px;
-    }
+    h2 { margin: 0 0 14px; font-size: 26px; line-height: 1.15; }
+    h3 { margin: 18px 0 8px; font-size: 19px; line-height: 1.25; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
     .panel {
-      min-height: 180px;
       padding: 20px;
-      border: 1px solid #ded8cb;
+      border: 1px solid var(--line);
       border-radius: 8px;
       background: #fff;
     }
-    .muted { color: #555; }
+    .panel h3 { margin-top: 0; }
+    .price { margin: 0 0 8px; font-size: 28px; font-weight: 800; }
+    .muted { color: var(--muted); }
     ul { padding-left: 20px; }
     li { margin: 7px 0; }
-    code {
-      padding: 2px 5px;
-      border-radius: 4px;
+    .links li { margin: 10px 0; }
+    pre {
+      margin: 16px 0;
+      padding: 12px 14px;
+      border-radius: 6px;
       background: #ece7dc;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
     }
+    code { font-size: 15px; }
+    .faq-item h3 { margin-bottom: 4px; }
+    .faq-item p { margin-top: 0; }
     footer {
-      padding: 28px 22px 44px;
-      color: #555;
+      padding: 28px 16px 44px;
+      color: var(--muted);
       text-align: center;
     }
-    @media (max-width: 760px) {
-      .hero { min-height: auto; padding-top: 48px; }
-      .hero::before { background-position: 70% center; opacity: .08; }
-      .grid { grid-template-columns: 1fr; }
-      .btn { width: 100%; }
+    footer p { margin: 4px 0; }
+    @media (min-width: 761px) {
+      .hero { min-height: 74vh; padding: 42px 22px; }
+      .hero::before { background-position: 72% center; opacity: .13; }
+      main { padding: 36px 22px 58px; }
+      h2 { font-size: 28px; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .actions { flex-direction: row; flex-wrap: wrap; gap: 12px; }
+      .btn { display: inline-flex; }
     }
   </style>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="hero">
     <div class="inner">
       <p class="eyebrow">free sample repo</p>
@@ -164,9 +271,9 @@
     </div>
   </header>
 
-  <main>
-    <section>
-      <h2>What This Free Sample Shows</h2>
+  <main id="main" tabindex="-1">
+    <section id="what-this-free-sample-shows" aria-labelledby="what-this-free-sample-shows-title">
+      <h2 id="what-this-free-sample-shows-title">What This Free Sample Shows</h2>
       <div class="grid">
         <div class="panel">
           <ul>
@@ -186,49 +293,83 @@
         </div>
       </div>
     </section>
-
-    <section>
-      <h2>Run The Checker</h2>
+    <section id="run-the-checker" aria-labelledby="run-the-checker-title">
+      <h2 id="run-the-checker-title">Run The Checker</h2>
       <p class="muted">Use the free browser Storefront Checker against this page or your own product page, then compare the result with the public case study.</p>
-      <p><code>python3 storefront_checker.py https://duct-tape2.github.io/github-pages-storefront-starter/ --fail-under 12</code></p>
+      <pre><code>python3 storefront_checker.py https://duct-tape2.github.io/github-pages-storefront-starter/ --fail-under 12</code></pre>
       <div class="actions">
         <a class="btn" href="https://duct-tape2.github.io/storefront-checker/">Run browser checker</a>
         <a class="btn secondary" href="https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py">Get storefront_checker.py</a>
-        <a class="btn secondary" href="https://github.com/new?template_name=github-pages-storefront-starter&amp;template_owner=duct-tape2">Start from template</a>
-        <a class="btn secondary" href="https://duct-tape2.github.io/examples/storefront-starter-case-study/">Read case study</a>
-        <a class="btn secondary" href="https://duct-tape2.github.io/work/">View shipped work</a>
-        <a class="btn secondary" href="https://github.com/duct-tape2/github-pages-storefront-starter/releases/tag/v1.0-free-sample">View release</a>
-        <a class="btn secondary" href="https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=question.yml">Ask public-safe question</a>
-        <a class="btn secondary" href="https://duct-tape2.github.io/guides/github-pages-storefront/">Read launch guide</a>
-        <a class="btn secondary" href="https://duct-tape2.github.io/tools/static-storefront-builder/">Build storefront page</a>
+      </div>
+      <h3>More free resources</h3>
+      <ul class="links">
+        <li><a href="https://github.com/new?template_name=github-pages-storefront-starter&amp;template_owner=duct-tape2">Start from template</a></li>
+        <li><a href="https://duct-tape2.github.io/examples/storefront-starter-case-study/">Read case study</a></li>
+        <li><a href="https://duct-tape2.github.io/work/">View shipped work</a></li>
+        <li><a href="https://github.com/duct-tape2/github-pages-storefront-starter/releases/tag/v1.0-free-sample">View release</a></li>
+        <li><a href="https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=question.yml">Ask public-safe question</a></li>
+        <li><a href="https://duct-tape2.github.io/guides/github-pages-storefront/">Read launch guide</a></li>
+        <li><a href="https://duct-tape2.github.io/tools/static-storefront-builder/">Build storefront page</a></li>
+      </ul>
+    </section>
+    <section id="done-for-you" aria-labelledby="done-for-you-title">
+      <h2 id="done-for-you-title">Done For You</h2>
+      <div class="grid offers">
+        <article class="panel offer">
+          <h3>Free sample</h3>
+          <p class="price">Free</p>
+          <p>Free sample repo for turning a small repo, checklist, deck, PDF, or digital download into a clearer GitHub Pages product page.</p>
+          <div class="actions">
+            <a class="btn" href="https://github.com/new?template_name=github-pages-storefront-starter&amp;template_owner=duct-tape2">Use this template</a>
+            <a class="btn secondary" href="https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip">Download sample ZIP</a>
+          </div>
+        </article>
+        <article class="panel offer">
+          <h3>Buyer-ready repo page</h3>
+          <p class="price">$99</p>
+          <p>For $99, turn one existing GitHub repo into a buyer-ready product page with clear positioning, proof, scope, and inquiry paths.</p>
+          <div class="actions">
+            <a class="btn" href="https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml">Start the $99 service</a>
+            <a class="btn secondary" href="https://duct-tape2.github.io/repo-launch/">Review service scope</a>
+            <a class="btn secondary" href="https://duct-tape2.github.io/work/">View shipped work</a>
+            <a class="btn secondary" href="https://duct-tape2.github.io/examples/storefront-starter-case-study/">Read case study</a>
+            <a class="btn secondary" href="mailto:sks7178@gmail.com?subject=Buyer-ready%20repo%20page%20inquiry">Email an inquiry</a>
+          </div>
+        </article>
       </div>
     </section>
-
-    <section>
-      <h2>Done For You</h2>
-      <p class="muted">For $99, turn one existing GitHub repo into a buyer-ready product page with clear positioning, proof, scope, and inquiry paths.</p>
-      <div class="actions">
-        <a class="btn" href="https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml">Start the $99 service</a>
-        <a class="btn secondary" href="https://duct-tape2.github.io/repo-launch/">Review service scope</a>
-        <a class="btn secondary" href="https://duct-tape2.github.io/work/">View shipped work</a>
-        <a class="btn secondary" href="https://duct-tape2.github.io/examples/storefront-starter-case-study/">Read case study</a>
-        <a class="btn secondary" href="mailto:sks7178@gmail.com?subject=Buyer-ready%20repo%20page%20inquiry">Email an inquiry</a>
-      </div>
+    <section id="delivery-and-support" aria-labelledby="delivery-and-support-title">
+      <h2 id="delivery-and-support-title">Delivery And Support</h2>
+      <p class="muted">For the free sample, use the repository&#x27;s public-safe question form. For the $99 service, send only a public repo URL and desired page outcome through the approved inquiry form or listed email. Payment instructions are confirmed privately after scope is accepted.</p>
     </section>
-
-    <section>
-      <h2>Delivery And Support</h2>
-      <p class="muted">For the free sample, use the repository's public-safe question form. For the $99 service, send only a public repo URL and desired page outcome through the approved inquiry form or listed email. Payment instructions are confirmed privately after scope is accepted.</p>
-    </section>
-
-    <section>
-      <h2>Scope</h2>
+    <section id="scope" aria-labelledby="scope-title">
+      <h2 id="scope-title">Scope</h2>
       <p class="muted">For normal digital products and small repo-based storefronts. No security, vulnerability, exploit, bypass, jailbreak, spam, fake-review, credential, or personal-data scraping work.</p>
+    </section>
+    <section id="questions" aria-labelledby="questions-title">
+      <h2 id="questions-title">Questions</h2>
+      <div class="faq-item">
+        <h3>What do I send for the $99 service?</h3>
+        <p>Send only a public repo URL and the page outcome you want.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where is the service available, and in what currency?</h3>
+        <p>Available worldwide in English and priced in USD.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Are results guaranteed?</h3>
+        <p>No revenue guarantees.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What should I keep out of public issues?</h3>
+        <p>Do not post payment details, passwords, API keys, private files, customer data, analytics exports, or private URLs in public issues.</p>
+      </div>
     </section>
   </main>
 
   <footer>
-    Service: <a href="https://duct-tape2.github.io/repo-launch/">Buyer-ready repo page for $99</a> - Email: <a href="mailto:sks7178@gmail.com">sks7178@gmail.com</a>
+    <p>Service: <a href="https://duct-tape2.github.io/repo-launch/">Buyer-ready repo page for $99</a></p>
+    <p>Email: <a href="mailto:sks7178@gmail.com">sks7178@gmail.com</a></p>
   </footer>
 </body>
 </html>
