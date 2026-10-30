@@ -1,0 +1,26 @@
+name: Site check
+
+# Pull requests only: no deploys, no secrets, read-only token.
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+
+      - name: Generated pages match storefront.json
+        run: python3 scripts/build.py --check
+
+      - name: Check published site (links, meta, JSON-LD, sitemap)
+        run: python3 scripts/check_site.py docs
+
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
