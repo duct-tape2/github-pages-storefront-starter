@@ -3,20 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    Hand-edit version: no build step. Replace every placeholder below,
+    including the matching text inside the JSON-LD block, so the structured
+    data always repeats what the page shows. Prefer storefront.json +
+    scripts/build.py if you can run Python; it keeps both in sync for you.
+  -->
   <title>Your Product Name</title>
   <meta name="description" content="One clear sentence about what the buyer gets.">
   <link rel="canonical" href="https://yourname.github.io/your-product/">
-  <meta property="og:type" content="product">
+  <link rel="icon" href="data:,">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Your Product Name">
   <meta property="og:title" content="Your Product Name">
   <meta property="og:description" content="One clear sentence about what the buyer gets.">
   <meta property="og:url" content="https://yourname.github.io/your-product/">
   <meta property="og:image" content="https://yourname.github.io/your-product/social-card.png">
+  <meta property="og:image:alt" content="Describe what the social card image shows.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Your Product Name">
   <meta name="twitter:description" content="One clear sentence about what the buyer gets.">
   <meta name="twitter:image" content="https://yourname.github.io/your-product/social-card.png">
+  <meta name="twitter:image:alt" content="Describe what the social card image shows.">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Your Product Name",
+      "description": "Say exactly what the buyer gets, who it helps, and what happens after payment.",
+      "url": "https://yourname.github.io/your-product/",
+      "offers": {
+        "@type": "Offer",
+        "price": "19",
+        "priceCurrency": "USD",
+        "url": "https://your-checkout-url.example/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What happens after payment?",
+          "acceptedAnswer": {"@type": "Answer", "text": "After payment, the buyer receives a ZIP or store download."}
+        },
+        {
+          "@type": "Question",
+          "name": "What is the refund policy?",
+          "acceptedAnswer": {"@type": "Answer", "text": "14-day refund if the ZIP cannot be opened or listed files are missing."}
+        }
+      ]
+    }
+  ]
+}
+  </script>
   <style>
-    * { box-sizing: border-box; }
+    *, *::before, *::after { box-sizing: border-box; }
     body {
       margin: 0;
       color: #171717;
@@ -24,44 +68,59 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.55;
     }
+    a { color: #165e6f; text-underline-offset: 2px; }
+    a:focus-visible { outline: 3px solid #f2b705; outline-offset: 3px; }
+    .skip {
+      position: absolute;
+      left: 12px;
+      top: -60px;
+      padding: 10px 14px;
+      border-radius: 6px;
+      color: #fff;
+      background: #165e6f;
+      font-weight: 700;
+    }
+    .skip:focus { top: 12px; }
     header, main, footer {
       width: min(920px, 100%);
       margin: 0 auto;
-      padding: 34px 22px;
+      padding: 28px 16px;
     }
     header {
-      padding-top: 70px;
+      padding-top: 56px;
       border-bottom: 1px solid #ded8cb;
     }
     h1 {
       max-width: 760px;
       margin: 0;
-      font-size: clamp(42px, 8vw, 74px);
-      line-height: .96;
-      letter-spacing: 0;
+      font-size: clamp(38px, 9vw, 74px);
+      line-height: 1;
+      overflow-wrap: break-word;
     }
     .lead {
       max-width: 680px;
-      font-size: 20px;
-      color: #555;
+      font-size: 19px;
+      color: #4d4d4d;
     }
+    .price { margin: 0; font-size: 28px; font-weight: 800; }
     .actions {
       display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 24px;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
     }
     .btn {
-      display: inline-flex;
+      display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 46px;
-      padding: 0 16px;
+      min-height: 48px;
+      padding: 10px 16px;
       border: 1px solid #165e6f;
       border-radius: 6px;
       color: #fff;
       background: #165e6f;
       font-weight: 800;
+      text-align: center;
       text-decoration: none;
     }
     .btn.secondary {
@@ -72,23 +131,30 @@
       padding: 24px 0;
       border-bottom: 1px solid #ded8cb;
     }
-    li { margin: 7px 0; }
-    @media (max-width: 640px) {
-      .btn { width: 100%; }
+    h3 { margin: 16px 0 4px; font-size: 18px; }
+    h3 + p { margin-top: 0; }
+    li { margin: 8px 0; }
+    @media (min-width: 641px) {
+      header, main, footer { padding-left: 22px; padding-right: 22px; }
+      header { padding-top: 70px; }
+      .actions { flex-direction: row; flex-wrap: wrap; gap: 12px; }
+      .btn { display: inline-flex; }
     }
   </style>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header>
     <h1>Your Product Name</h1>
     <p class="lead">Say exactly what the buyer gets, who it helps, and what happens after payment.</p>
+    <p class="price">$19 <span class="lead">USD, one-time (replace with your price)</span></p>
     <div class="actions">
-      <a class="btn" href="https://your-checkout-url.example">Buy now</a>
-      <a class="btn secondary" href="https://your-sample-url.example">Free sample</a>
+      <a class="btn" href="https://your-checkout-url.example/">Buy now</a>
+      <a class="btn secondary" href="https://your-sample-url.example/">Free sample</a>
     </div>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
     <section>
       <h2>What You Get</h2>
       <ul>
@@ -110,19 +176,23 @@
     </section>
 
     <section>
+      <h2>Questions</h2>
+      <h3>What happens after payment?</h3>
+      <p>After payment, the buyer receives a ZIP or store download.</p>
+      <h3>What is the refund policy?</h3>
+      <p>14-day refund if the ZIP cannot be opened or listed files are missing.</p>
+    </section>
+
+    <section>
       <h2>Next Step</h2>
       <p>Use the free tools, compare a shipped case study, or request the fixed $99 service for one existing GitHub repo.</p>
-      <p>
-        <a href="https://duct-tape2.github.io/tools/static-storefront-builder/">Build storefront page</a>
-        ·
-        <a href="https://duct-tape2.github.io/storefront-checker/">Run storefront checker</a>
-        ·
-        <a href="https://duct-tape2.github.io/examples/storefront-starter-case-study/">Read case study</a>
-        ·
-        <a href="https://duct-tape2.github.io/repo-launch/">Review $99 service</a>
-        ·
-        <a href="https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml">Open paid inquiry</a>
-      </p>
+      <ul>
+        <li><a href="https://duct-tape2.github.io/tools/static-storefront-builder/">Build storefront page</a></li>
+        <li><a href="https://duct-tape2.github.io/storefront-checker/">Run storefront checker</a></li>
+        <li><a href="https://duct-tape2.github.io/examples/storefront-starter-case-study/">Read case study</a></li>
+        <li><a href="https://duct-tape2.github.io/repo-launch/">Review $99 service</a></li>
+        <li><a href="https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml">Open paid inquiry</a></li>
+      </ul>
     </section>
   </main>
 

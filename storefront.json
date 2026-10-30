@@ -1,0 +1,118 @@
+{
+  "site": {
+    "url": "https://duct-tape2.github.io/github-pages-storefront-starter/",
+    "name": "GitHub Pages Storefront Starter",
+    "lang": "en",
+    "theme_color": "#15131d"
+  },
+  "seo": {
+    "title": "GitHub Pages Storefront Sample | $99 Repo Page Service",
+    "description": "Free GitHub Pages storefront sample plus a $99 service that turns one existing repo into a buyer-ready product page.",
+    "social_description": "Use the free sample or get one existing GitHub repo turned into a buyer-ready product page for $99.",
+    "image": "assets/storefront-starter-hero.png",
+    "image_width": 1600,
+    "image_height": 900,
+    "image_alt": "Storefront Starter Kit graphic: page template, issue forms, launch checklist, and delivery copy."
+  },
+  "hero": {
+    "eyebrow": "free sample repo",
+    "heading": "GitHub Pages Storefront Starter Sample",
+    "lead": "A free checklist and tiny live demo for turning a small repo, checklist, deck, PDF, or digital download into a buyer-ready storefront.",
+    "background_image": "assets/storefront-starter-hero.png",
+    "actions": [
+      {"label": "Open sample repo", "url": "https://github.com/duct-tape2/github-pages-storefront-starter", "style": "primary"},
+      {"label": "Use this template", "url": "https://github.com/new?template_name=github-pages-storefront-starter&template_owner=duct-tape2"},
+      {"label": "Free launch guide", "url": "https://duct-tape2.github.io/guides/github-pages-storefront/"},
+      {"label": "Free sample checklist", "url": "https://raw.githubusercontent.com/duct-tape2/github-pages-storefront-starter/main/CHECKLIST.md?sample=1"},
+      {"label": "Download sample ZIP", "url": "https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip"},
+      {"label": "Get a buyer-ready repo page", "url": "https://duct-tape2.github.io/repo-launch/"}
+    ]
+  },
+  "product": {
+    "name": "GitHub Pages Storefront Starter",
+    "description": "A free checklist and tiny live demo for turning a small repo, checklist, deck, PDF, or digital download into a buyer-ready storefront.",
+    "brand": "duct-tape2",
+    "offers": [
+      {
+        "name": "Free sample",
+        "price": "0",
+        "currency": "USD",
+        "url": "https://github.com/new?template_name=github-pages-storefront-starter&template_owner=duct-tape2",
+        "description": "Free sample repo for turning a small repo, checklist, deck, PDF, or digital download into a clearer GitHub Pages product page.",
+        "actions": [
+          {"label": "Use this template", "url": "https://github.com/new?template_name=github-pages-storefront-starter&template_owner=duct-tape2", "style": "primary"},
+          {"label": "Download sample ZIP", "url": "https://github.com/duct-tape2/github-pages-storefront-starter/releases/download/v1.0-free-sample/github-pages-storefront-starter-free-sample.zip"}
+        ]
+      },
+      {
+        "name": "Buyer-ready repo page",
+        "item_type": "Service",
+        "price": "99",
+        "currency": "USD",
+        "url": "https://duct-tape2.github.io/repo-launch/",
+        "description": "For $99, turn one existing GitHub repo into a buyer-ready product page with clear positioning, proof, scope, and inquiry paths.",
+        "actions": [
+          {"label": "Start the $99 service", "url": "https://github.com/duct-tape2/duct-tape2/issues/new?template=paid-inquiry.yml", "style": "primary"},
+          {"label": "Review service scope", "url": "https://duct-tape2.github.io/repo-launch/"},
+          {"label": "View shipped work", "url": "https://duct-tape2.github.io/work/"},
+          {"label": "Read case study", "url": "https://duct-tape2.github.io/examples/storefront-starter-case-study/"},
+          {"label": "Email an inquiry", "url": "mailto:sks7178@gmail.com?subject=Buyer-ready%20repo%20page%20inquiry"}
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "What This Free Sample Shows",
+      "columns": [
+        ["buyer-ready page signals", "free sample or preview link", "support and refund language", "public-safe question path"],
+        ["simple HTML storefront structure", "metadata for social sharing", "safe scope boundaries", "upgrade path to the full kit or service"]
+      ]
+    },
+    {
+      "heading": "Run The Checker",
+      "paragraphs": ["Use the free browser Storefront Checker against this page or your own product page, then compare the result with the public case study."],
+      "code": "python3 storefront_checker.py https://duct-tape2.github.io/github-pages-storefront-starter/ --fail-under 12",
+      "actions": [
+        {"label": "Run browser checker", "url": "https://duct-tape2.github.io/storefront-checker/", "style": "primary"},
+        {"label": "Get storefront_checker.py", "url": "https://github.com/duct-tape2/ai-money-stack/blob/main/storefront_checker.py"}
+      ],
+      "links_heading": "More free resources",
+      "links": [
+        {"label": "Start from template", "url": "https://github.com/new?template_name=github-pages-storefront-starter&template_owner=duct-tape2"},
+        {"label": "Read case study", "url": "https://duct-tape2.github.io/examples/storefront-starter-case-study/"},
+        {"label": "View shipped work", "url": "https://duct-tape2.github.io/work/"},
+        {"label": "View release", "url": "https://github.com/duct-tape2/github-pages-storefront-starter/releases/tag/v1.0-free-sample"},
+        {"label": "Ask public-safe question", "url": "https://github.com/duct-tape2/github-pages-storefront-starter/issues/new?template=question.yml"},
+        {"label": "Read launch guide", "url": "https://duct-tape2.github.io/guides/github-pages-storefront/"},
+        {"label": "Build storefront page", "url": "https://duct-tape2.github.io/tools/static-storefront-builder/"}
+      ]
+    },
+    {
+      "heading": "Done For You",
+      "include": "offers"
+    },
+    {
+      "heading": "Delivery And Support",
+      "paragraphs": ["For the free sample, use the repository's public-safe question form. For the $99 service, send only a public repo URL and desired page outcome through the approved inquiry form or listed email. Payment instructions are confirmed privately after scope is accepted."]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": ["For normal digital products and small repo-based storefronts. No security, vulnerability, exploit, bypass, jailbreak, spam, fake-review, credential, or personal-data scraping work."]
+    },
+    {
+      "heading": "Questions",
+      "include": "faq"
+    }
+  ],
+  "faq": [
+    {"question": "What do I send for the $99 service?", "answer": "Send only a public repo URL and the page outcome you want."},
+    {"question": "Where is the service available, and in what currency?", "answer": "Available worldwide in English and priced in USD."},
+    {"question": "Are results guaranteed?", "answer": "No revenue guarantees."},
+    {"question": "What should I keep out of public issues?", "answer": "Do not post payment details, passwords, API keys, private files, customer data, analytics exports, or private URLs in public issues."}
+  ],
+  "footer": [
+    {"text": "Service:", "label": "Buyer-ready repo page for $99", "url": "https://duct-tape2.github.io/repo-launch/"},
+    {"text": "Email:", "label": "sks7178@gmail.com", "url": "mailto:sks7178@gmail.com"}
+  ]
+}
