@@ -1,0 +1,135 @@
+{
+  "_comment": "Every supported field, with placeholder values. Copy the parts you need into storefront.json. Keys starting with _ are comments and are ignored by scripts/build.py. Field reference: docs/CUSTOMIZING.md.",
+
+  "site": {
+    "_comment": "url is required: the exact public address of the page, https and ending in /.",
+    "url": "https://yourname.github.io/your-product/",
+    "name": "Your Product Name",
+    "lang": "en",
+    "theme_color": "#15131d"
+  },
+
+  "seo": {
+    "_comment": "title and description are required. social_* default to title/description. image is relative to site.url or absolute.",
+    "title": "Your Product Name | One-line benefit",
+    "description": "One clear sentence about what the buyer gets.",
+    "social_title": "Your Product Name",
+    "social_description": "A shorter sentence for link previews.",
+    "image": "assets/social-card.png",
+    "image_width": 1200,
+    "image_height": 630,
+    "image_alt": "Describe what the social card image shows.",
+    "og_type": "website",
+    "twitter_site": "@yourhandle"
+  },
+
+  "hero": {
+    "_comment": "heading is required and becomes the page's only <h1>. background_image is decorative (no alt text needed).",
+    "eyebrow": "digital download",
+    "heading": "Your Product Name",
+    "lead": "Say exactly what the buyer gets, who it helps, and what happens after payment.",
+    "background_image": "assets/hero.png",
+    "actions": [
+      {"label": "Buy now", "url": "https://your-checkout-url.example/", "style": "primary"},
+      {"label": "Free sample", "url": "https://your-sample-url.example/", "style": "secondary"}
+    ]
+  },
+
+  "product": {
+    "_comment": "Builds the Product/Offer JSON-LD. name, description, every offer name/description and price must also be visible on the page; scripts/check_site.py enforces it. Offers render where a section has include: offers.",
+    "name": "Your Product Name",
+    "description": "Say exactly what the buyer gets, who it helps, and what happens after payment.",
+    "brand": "Your Name",
+    "image": "assets/social-card.png",
+    "sku": "your-product-v1",
+    "offers": [
+      {
+        "_comment": "price is a plain number string; currency is an ISO 4217 code. price_label overrides the visible price text (default: $19, Free, or 19 CAD).",
+        "name": "Standard",
+        "price": "19",
+        "currency": "USD",
+        "price_label": "$19 one-time",
+        "url": "https://your-checkout-url.example/",
+        "description": "ZIP download with the template, checklist, and setup notes.",
+        "availability": "InStock",
+        "actions": [
+          {"label": "Buy now", "url": "https://your-checkout-url.example/", "style": "primary"}
+        ]
+      },
+      {
+        "_comment": "item_type marks what is sold when it is not the product itself, e.g. Service.",
+        "name": "Setup help",
+        "item_type": "Service",
+        "price": "49.50",
+        "currency": "USD",
+        "url": "mailto:you@example.com?subject=Setup%20help",
+        "description": "One setup session by email after purchase.",
+        "actions": [
+          {"label": "Ask about setup", "url": "mailto:you@example.com?subject=Setup%20help"}
+        ]
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "_comment": "heading is required. id defaults to a slug of the heading and is the #anchor. Every other field is optional and renders in this order: paragraphs, list, columns, code, actions, links.",
+      "id": "what-you-get",
+      "heading": "What You Get",
+      "paragraphs": ["A short paragraph about the deliverable."],
+      "list": ["Deliverable 1", "Deliverable 2", "Deliverable 3"]
+    },
+    {
+      "heading": "Compare Options",
+      "columns": [
+        ["Column one item", "Column one item"],
+        ["Column two item", "Column two item"]
+      ]
+    },
+    {
+      "heading": "Try It",
+      "paragraphs": ["Show a command, then link to the sample."],
+      "code": "python3 scripts/check_site.py docs",
+      "actions": [
+        {"label": "Free sample", "url": "https://your-sample-url.example/"}
+      ],
+      "links_heading": "More links",
+      "links": [
+        {"label": "Jump to pricing", "url": "#pricing"},
+        {"label": "Read the docs", "url": "https://your-docs-url.example/"}
+      ]
+    },
+    {
+      "_comment": "include: offers renders the product.offers cards here. Without it they are appended at the end under Pricing.",
+      "id": "pricing",
+      "heading": "Pricing",
+      "include": "offers"
+    },
+    {
+      "heading": "Delivery And Support",
+      "paragraphs": [
+        "After payment, the buyer receives a ZIP or store download. Support email: you@example.com.",
+        "Refund support: 14-day refund if the ZIP cannot be opened or listed files are missing."
+      ]
+    },
+    {
+      "heading": "Scope",
+      "paragraphs": ["Say what this is not for. Do not request private credentials or payment details in public."]
+    },
+    {
+      "_comment": "include: faq renders the faq list here and builds FAQPage JSON-LD. Leave faq empty to omit both.",
+      "heading": "Questions",
+      "include": "faq"
+    }
+  ],
+
+  "faq": [
+    {"question": "What format is the download?", "answer": "A ZIP file with a README."},
+    {"question": "How do I get support?", "answer": "Email you@example.com."}
+  ],
+
+  "footer": [
+    {"text": "Email:", "label": "you@example.com", "url": "mailto:you@example.com"},
+    {"text": "Plain text line without a link."}
+  ]
+}
